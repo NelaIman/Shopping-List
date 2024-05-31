@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #83b38d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #83b38d;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+li input[type="text"], li input[type="number"] {
+    border: none;
+    background: none;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+li input[type="text"]:disabled, li input[type="number"]:disabled {
+    color: #000;
+}
+
+li button {
+    background-color: #f1283c;
+    margin-left: 5px;
+}
+
+li button.edit {
+    background-color: #e0ca86;
+}
+
+li button.edit:hover {
+    background-color: #e0ca86;
+}
+
+li button:hover {
+    background-color: #f1283c;
+}
+
+li .completed {
+    text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    form input, form button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    li div {
+        width: 60%;
+    }
+}
