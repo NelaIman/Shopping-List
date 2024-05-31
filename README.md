@@ -1,6 +1,6 @@
 **Shopping List Application**
 
-View this page [here](file:///C:/Users/NelaIman/Desktop/Project/ShoppingList/index.html).
+View this page [here]([file:///C:/Users/NelaIman/Desktop/Project/ShoppingList/index.html](https://github.com/NelaIman/Shopping-List)).
 
 A simple shopping list using HTML, CSS and Javascript DOM events.
 The application allows users to add, edit, and delete items from a shopping list. It also provides the ability to mark items as taken and stores user data locally for persistence across page reloads.
